@@ -16,7 +16,7 @@ void copy(char* dst, char* src) {
 }
 
 int main() {
-    char srcString[] = "We promptly judged antique ivory buckles for the next prize!";
+    char srcString[] = "ERM, WHAT THE SIGMA!";
     
     // Allocate destination array with enough space (length of srcString + 1 for null terminator)
     char dstString[strlen(srcString) + 1];
