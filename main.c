@@ -2,7 +2,7 @@
 #include <string.h>
 
 // Function to copy a string from src to dst
-void copy(char* dst, char* src) {
+void skibidicpy(char* dst, char* src) {
     while (*src != '\0') {  // Loop until the null terminator is encountered
         *dst = *src;        // Copy the current character from src to dst
         
@@ -22,7 +22,7 @@ int main() {
     char dstString[strlen(srcString) + 1];
     
     // Call the copy function to copy srcString into dstString
-    copy(dstString, srcString);
+    skibidicpy(dstString, srcString);
 
     // Print the copied string
     printf("%s\n", dstString);
