@@ -7,7 +7,7 @@ void copy(char* dst, char* src) {
         *dst = *src;        // Copy the current character from src to dst
         
         src++;  // Move src pointer to the next character
-        // Example: If src was pointing to 'W', now it points to 'e'
+        // Example: If src was pointing to 'E', now it points to 'R' then next 'M' 
 
         dst++;  // Move dst pointer to the next position
         // Example: If dst was pointing to an empty location, now it moves to store the next copied char
